@@ -36,7 +36,7 @@ const Navbar = () => {
                     <div className="flex-shrink-0 cursor-pointer z-50" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
                         <h1 className="text-2xl font-bold">
                             <span className="bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">
-                                Bibin.
+                                Bibin
                             </span>
                         </h1>
                     </div>
