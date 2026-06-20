@@ -78,7 +78,7 @@ const Projects = () => {
             ),
             tags: ["React.js", "TailwindCSS", "JavaScript", "Node.js", "Express.js", "MySQL", "JWT", "API"],
             image: mashMagicImg,
-            demoUrl: "#",
+            demoUrl: "https://lms.mashmagicedu.com/login",
             githubUrl: "https://github.com/bibin97"
         },
         {
