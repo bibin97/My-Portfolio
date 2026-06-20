@@ -39,8 +39,8 @@ const Experience = () => {
                 </div>
 
                 <ExperienceCard
-                    role="Web Developer Intern"
-                    company="MashMagic Edu Tech | October 2025 - Present | Thamarassery, Calicut"
+                    role="Web Developer (MERN)"
+                    company="MashMagic Edu Tech | October 2025 - Present (9 Months) | Thamarassery, Calicut"
                     points={[
                         <span key="1" className="block p-1 -m-1 rounded-lg bg-green-50 dark:bg-green-900/20">
                             Performance: Optimized landing pages and modules, achieving <strong className="text-zinc-900 dark:text-zinc-100">20-25% faster load times</strong>.

@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Code, Database, Terminal, Wrench, MonitorSmartphone, Palette } from 'lucide-react';
+import { Code, Database, Terminal, Wrench, MonitorSmartphone, Palette, Bot } from 'lucide-react';
 
 const SkillCard = ({ title, icon: Icon, items, delay }) => (
     <motion.div
@@ -87,6 +87,16 @@ const Skills = () => {
                 { name: "MVC Arch", icon: Code }, // Using generic icon
                 { name: "LocalStorage", icon: Database } // Using generic icon
             ]
+        },
+        {
+            title: "AI Tools",
+            icon: Bot,
+            items: [
+                { name: "ChatGPT", slug: "openai", color: "412991" },
+                { name: "Webenoid", icon: Bot },
+                { name: "Gemini", slug: "googlegemini", color: "8E75B2" },
+                { name: "Claude", slug: "anthropic", color: "D97757" }
+            ]
         }
     ];
 
@@ -108,6 +118,10 @@ const Skills = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <SkillCard title={skillSets[2].title} icon={skillSets[2].icon} items={skillSets[2].items} delay={0.2} />
                         <SkillCard title={skillSets[3].title} icon={skillSets[3].icon} items={skillSets[3].items} delay={0.3} />
+                    </div>
+                    {/* Third row for AI Tools */}
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <SkillCard title={skillSets[4].title} icon={skillSets[4].icon} items={skillSets[4].items} delay={0.4} />
                     </div>
                 </div>
             </div>

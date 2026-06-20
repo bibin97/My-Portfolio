@@ -70,6 +70,18 @@ const ProjectCard = ({ title, description, tags, demoUrl, githubUrl, image, dela
 const Projects = () => {
     const projects = [
         {
+            title: "Mashmagic-Lms-Erp-Dashboard",
+            description: (
+                <>
+                    A comprehensive ERP dashboard for LMS featuring <strong>JWT Authentication</strong> and <strong>REST API Integration</strong>.
+                </>
+            ),
+            tags: ["React.js", "TailwindCSS", "JavaScript", "Node.js", "Express.js", "MySQL", "JWT", "API"],
+            image: mashMagicImg,
+            demoUrl: "#",
+            githubUrl: "https://github.com/bibin97"
+        },
+        {
             title: "WeCare Doctor Appointment",
             description: (
                 <>
@@ -80,10 +92,10 @@ const Projects = () => {
             tags: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
             image: weCareImg,
             demoUrl: "#",
-            githubUrl: "https://github.com/bibin97"
+            githubUrl: "https://github.com/bibin97/Wecare"
         },
         {
-            title: "MashMagic Corporate Site",
+            title: "Mashmagic Website",
             description: (
                 <>
                     Enhanced UI structure achieving <strong>20-25% faster load times</strong> with an <strong>Optimized UI structure</strong>.
@@ -92,8 +104,8 @@ const Projects = () => {
             ),
             tags: ["React", "Tailwind CSS", "Framer Motion"],
             image: mashMagicImg,
-            demoUrl: "#",
-            githubUrl: "https://github.com/bibin97"
+            demoUrl: "https://mashmagicedu.com",
+            githubUrl: "https://github.com/bibin97/Mashmagic-Website"
         },
         {
             title: "E-commerce Platform",
