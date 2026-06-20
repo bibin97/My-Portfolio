@@ -92,7 +92,7 @@ const Skills = () => {
             title: "AI Tools",
             icon: Bot,
             items: [
-                { name: "ChatGPT", slug: "openai", color: "412991" },
+                { name: "ChatGPT", icon: Bot },
                 { name: "Webenoid", icon: Bot },
                 { name: "Gemini", slug: "googlegemini", color: "8E75B2" },
                 { name: "Claude", slug: "anthropic", color: "D97757" }

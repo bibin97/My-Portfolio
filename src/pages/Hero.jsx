@@ -23,7 +23,7 @@ const Hero = () => {
                 </h1>
 
                 <p className="text-lg md:text-xl text-zinc-600 dark:text-zinc-400 max-w-2xl mx-auto leading-loose">
-                    I build scalable web applications with a focus on performance optimization and seamless user experiences. <span className="font-bold text-zinc-900 dark:text-zinc-100">Currently an Intern at MashMagic Edu Tech</span>.
+                    I build scalable web applications with a focus on performance optimization and seamless user experiences. <span className="font-bold text-zinc-900 dark:text-zinc-100">Currently a Web Developer (MERN) at MashMagic Edu Tech</span>.
                 </p>
 
                 <motion.div
